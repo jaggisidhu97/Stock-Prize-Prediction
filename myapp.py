@@ -2,6 +2,10 @@ import yfinance as yf
 import streamlit as st
 import pandas as pd
 
+st.write("""
+Made by **Jagmeet Singh Sidhu**
+""")
+
 
 st.write("""
 # Simple Stock Price App
