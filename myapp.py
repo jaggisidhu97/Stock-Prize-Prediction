@@ -22,7 +22,14 @@ st.line_chart(tickerDf.Close)
 st.write("""Volume Price""")
 st.line_chart(tickerDf.Volume)
 
-tickerSymbol = 'AAPL'
+st.write("""
+# Simple Stock Price App
+
+Shown are the stock **closing price** and **volume** of TESLA
+
+""")
+
+tickerSymbol = 'TSLA'
 
 tickerData = yf.Ticker(tickerSymbol)
 
